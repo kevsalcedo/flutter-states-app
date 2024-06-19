@@ -5,7 +5,7 @@ class Page1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Page 1'),
+        title: const Text('Page 1'),
         elevation: 1,
       ),
       body: UserInformation(),
@@ -33,18 +33,18 @@ class UserInformation extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
+          const Text(
             'General',
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
           ),
-          Divider(),
+          const Divider(),
           ListTile(title: Text('Name: ')),
           ListTile(title: Text('Age: ')),
-          Text(
+          const Text(
             'Professions',
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
           ),
-          Divider(),
+          const Divider(),
           ListTile(title: Text('Professions 1')),
           ListTile(title: Text('Professions 3')),
           ListTile(title: Text('Professions 2')),

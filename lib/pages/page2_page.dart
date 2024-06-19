@@ -15,25 +15,25 @@ class Page2 extends StatelessWidget {
               MaterialButton(
                 onPressed: () {},
                 color: Theme.of(context).primaryColor,
-                child: Text(
+                child: const Text(
                   'Set user',
-                  style: const TextStyle(color: Colors.white),
+                  style: TextStyle(color: Colors.white),
                 ),
               ),
               MaterialButton(
                 onPressed: () {},
                 color: Theme.of(context).primaryColor,
-                child: Text(
+                child: const Text(
                   'Change age',
-                  style: const TextStyle(color: Colors.white),
+                  style: TextStyle(color: Colors.white),
                 ),
               ),
               MaterialButton(
                 onPressed: () {},
                 color: Theme.of(context).primaryColor,
-                child: Text(
+                child: const Text(
                   'Add professions',
-                  style: const TextStyle(color: Colors.white),
+                  style: TextStyle(color: Colors.white),
                 ),
               ),
             ],
